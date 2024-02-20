@@ -6,10 +6,10 @@ public class MovementBehaviour : MonoBehaviour
     public float speed = 12f;
     public float gravity = 9.81f * 2;
     public float jumpHeigth = 3f;
-
+    public int maxJumps;
     public Transform groundCheck;
     public float groundDistance = 0.4f;
-
+    private int jumps;
     public LayerMask groundMask;
     Vector3 velocity;
     bool isGrounded;
@@ -43,18 +43,33 @@ public class MovementBehaviour : MonoBehaviour
     _controller.Move(move * (speed * Time.deltaTime));
     
     //Check Jump Availability
-    if (Input.GetButtonDown("Jump") && isGrounded)
+    if (!(maxJumps == 0))
     {
-        velocity.y = Mathf.Sqrt(jumpHeigth * -2f * gravity);
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpHeigth * -2f * gravity);
+            jumps++;
+        }
+
+        if (Input.GetButtonDown("Jump") && !isGrounded && (jumps <= maxJumps))
+        {
+            velocity.y = Mathf.Sqrt(jumpHeigth * -2f * gravity);
+            jumps++;
+        }
+
+        if (jumps > maxJumps && isGrounded)
+        {
+            jumps = 0;
+        }
+        
     }
-        //Constant Gravity
+    //Constant Gravity
     velocity.y += gravity * Time.deltaTime;
-        //Jumping Translocation
     _controller.Move(velocity * Time.deltaTime);
+    //Move Check
     if (lastPosition != gameObject.transform.position && isGrounded == true)
     {
         isMoving = true;
-
     }
     else
     {
