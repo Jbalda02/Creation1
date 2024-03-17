@@ -8,6 +8,7 @@ TagManager:
   - Blue
   - Pink
   - Green
+  - Bullet
   layers:
   - Default
   - TransparentFX

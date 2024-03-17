@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4172415099032711177}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,6 +149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9828d749e4fada64b8c63267607f79e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreAdd: 1
+  hitPonderation: 1
+  baseScore: 10
 --- !u!96 &4172415099032711177
 TrailRenderer:
   serializedVersion: 3
@@ -157,7 +160,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4688192916725861700}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
