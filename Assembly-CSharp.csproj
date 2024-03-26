@@ -66,11 +66,13 @@
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Scripts\PlayerControlScripts\EnmeyColl.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Scripts\PlayerControlScripts\BulletBehaviour.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\PlayerControlScripts\WeponBehaviour.cs" />
+    <Compile Include="Assets\Scripts\PlayerControlScripts\ObstacleGenerator.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Imported Assets\Low Poly Guns\Scripts\GunView.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -79,9 +81,11 @@
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Imported Assets\Low Poly Guns\Scripts\GunsMenu.cs" />
+    <Compile Include="Assets\Scripts\PlayerControlScripts\FollowScript.cs" />
     <Compile Include="Assets\Scripts\PlayerControlScripts\TargetBehaviour.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Scripts\PlayerControlScripts\MovementBehaviour.cs" />
+    <Compile Include="Assets\Scripts\PlayerControlScripts\EnemyScript.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Imported Components\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />

@@ -15,7 +15,7 @@ C:/Users/joseb/OneDrive/Desktop/Unity/Creation#1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64468
+51088
 Successfully changed project path to: C:/Users/joseb/OneDrive/Desktop/Unity/Creation#1
 C:/Users/joseb/OneDrive/Desktop/Unity/Creation#1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/joseb/OneDrive/Desktop/Unity/Creation#1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19560] Host "[IP] 192.168.100.156 [Port] 0 [Flags] 2 [Guid] 2136189379 [EditorId] 2136189379 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3348] Host "[IP] 192.168.100.156 [Port] 0 [Flags] 2 [Guid] 1832094803 [EditorId] 1832094803 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19560] Host "[IP] 192.168.100.156 [Port] 0 [Flags] 2 [Guid] 2136189379 [EditorId] 2136189379 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3348] Host "[IP] 192.168.100.156 [Port] 0 [Flags] 2 [Guid] 1832094803 [EditorId] 1832094803 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 20.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,19 +70,19 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007974 seconds.
-- Loaded All Assemblies, in  0.370 seconds
+Registered in 0.007464 seconds.
+- Loaded All Assemblies, in  0.324 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.226 seconds
-Domain Reload Profiling: 595ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 587ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -90,26 +90,26 @@ Domain Reload Profiling: 595ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (135ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (120ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (110ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (227ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (264ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (168ms)
+		SetupLoadedEditorAssemblies (204ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 595ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.062 seconds
-Refreshing native plugins compatible for Editor in 5.13 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.918 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.027 seconds
-Domain Reload Profiling: 2088ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 1492ms
+	BeginReloadAssembly (187ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (829ms)
-		LoadAssemblies (736ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (646ms)
+		LoadAssemblies (608ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (164ms)
-				TypeCache.ScanAssembly (146ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (119ms)
 			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (1027ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (576ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (906ms)
+		SetupLoadedEditorAssemblies (447ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (798ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 9.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3603.
-Memory consumption went from 128.0 MB to 127.9 MB.
-Total: 2.732200 ms (FindLiveObjects: 0.198200 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.302400 ms  DeleteObjects: 0.147400 ms)
+Unloading 3139 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3604.
+Memory consumption went from 128.1 MB to 128.0 MB.
+Total: 4.893900 ms (FindLiveObjects: 0.699300 ms CreateObjectMapping: 0.590000 ms MarkObjects: 3.461800 ms  DeleteObjects: 0.141200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,174 +184,130 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 73988.339926 seconds.
-  path: Assets/BrokenVector
-  artifactKey: Guid(ba7e7c6ffdf2b3c46b8b6d7d8c9441d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector using Guid(ba7e7c6ffdf2b3c46b8b6d7d8c9441d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69513010a078666e29616044424168b3') in 0.003729 seconds
+  Time since last request: 77756.136877 seconds.
+  path: Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/NutcrackerBrown.mat
+  artifactKey: Guid(cc9bf5b52d3a2b84fa13541cbb1b7643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/NutcrackerBrown.mat using Guid(cc9bf5b52d3a2b84fa13541cbb1b7643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfb011e3c1df451911fba58b463d860') in 0.135844 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.052982 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Example
-  artifactKey: Guid(dd2b184c37c0b3142a06c1f5e89b7acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Example using Guid(dd2b184c37c0b3142a06c1f5e89b7acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241de7da658421ced318f77ab0c688ee') in 0.001405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.453063 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models
-  artifactKey: Guid(846cb99aa77c0c04c9bce94472a50e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models using Guid(846cb99aa77c0c04c9bce94472a50e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4921a7a00001f75571d3a12cef30cf0e') in 0.001055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.187526 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/CandyCane.fbx
-  artifactKey: Guid(efcd52218922fb9429b59ee5f134a847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/CandyCane.fbx using Guid(efcd52218922fb9429b59ee5f134a847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd151f3ab15b540cab6670a3ce57ca1a') in 0.171642 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Nutcracker.fbx
-  artifactKey: Guid(0132ab48bf04188478665dd620dcaad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Nutcracker.fbx using Guid(0132ab48bf04188478665dd620dcaad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b145a79e64e60dca7a095d78578a07b') in 0.023564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/TreeStump.fbx
-  artifactKey: Guid(70d80f81ae28d9c4991d2b27e03f6256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/TreeStump.fbx using Guid(70d80f81ae28d9c4991d2b27e03f6256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc05948949fc7a600ec38687cb5d64d') in 0.019185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/TreeDecorated.fbx
-  artifactKey: Guid(84bbb342af212ab4db1d4ffeb0439315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/TreeDecorated.fbx using Guid(84bbb342af212ab4db1d4ffeb0439315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf964a35213164b6c6068a8a6c42b9c') in 0.024208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/TreeGlowing.fbx
-  artifactKey: Guid(442bb91adc953c640b007ded8845eae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/TreeGlowing.fbx using Guid(442bb91adc953c640b007ded8845eae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506e2ef55b9e313620cbcdb5d186cac8') in 0.024682 seconds
+  path: Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Nutcracker Skin.mat
+  artifactKey: Guid(cf0cab2a971626a44b5373f6a9ada813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Nutcracker Skin.mat using Guid(cf0cab2a971626a44b5373f6a9ada813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf03f2b3045a0ba3ae2aa488fc30d45') in 0.008643 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Nutcracker Red.mat
+  artifactKey: Guid(3c995970b5dbe744e868cc705e869271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Nutcracker Red.mat using Guid(3c995970b5dbe744e868cc705e869271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce76824545b3b5d20849174fd841856b') in 0.007069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Brown.mat
+  artifactKey: Guid(e1798c5eac029654eb5a24208e465ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Brown.mat using Guid(e1798c5eac029654eb5a24208e465ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddd3ee9e3e2f45ca2f2d522b995f993') in 0.007062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift3 Red.mat
+  artifactKey: Guid(c78ad290917cde34aa77f153c5edfcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift3 Red.mat using Guid(c78ad290917cde34aa77f153c5edfcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d41b4e99a44265fa13d89d2b087f8f') in 0.006648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/TreeSnowy.fbx
-  artifactKey: Guid(8ee47481e9099bf4993713b7aaf9565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/TreeSnowy.fbx using Guid(8ee47481e9099bf4993713b7aaf9565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9aa65c235bc0a2cbcec773ba19d8dc') in 0.015838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 3.233131 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials
-  artifactKey: Guid(c82cc2e31970f9445b1c2d8b144d8385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials using Guid(c82cc2e31970f9445b1c2d8b144d8385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d92a66081bf58205305278d650cfde1') in 0.001117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.082782 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/CandyCane.mat
-  artifactKey: Guid(5c297b7c6148e944a91e278c781ebc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/CandyCane.mat using Guid(5c297b7c6148e944a91e278c781ebc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26926f4a8a911188a349c5bfa06d4d0') in 0.038656 seconds
+  path: Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Green.mat
+  artifactKey: Guid(e334806a40f1b284abe2f70986891735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Green.mat using Guid(e334806a40f1b284abe2f70986891735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31b947ca901723cb377923ccc1a03d7') in 0.007928 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Stars Gold.mat
-  artifactKey: Guid(843d0c0a3ed1b804da1a385dbed35f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Stars Gold.mat using Guid(843d0c0a3ed1b804da1a385dbed35f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38026ed0e44fcecb509d80ad2b991f5') in 0.011927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift3 Gold.mat
-  artifactKey: Guid(47a86676bc167b04284077567bcf9827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift3 Gold.mat using Guid(47a86676bc167b04284077567bcf9827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95db2542b333775568ebeb17e344a827') in 0.009498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift2 Red.mat
-  artifactKey: Guid(4b08eb0f17bc146408c91e93f6c3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift2 Red.mat using Guid(4b08eb0f17bc146408c91e93f6c3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfef929f642a11624e021c3e09d4952c') in 0.010596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Nutracker Gold.mat
-  artifactKey: Guid(29110696499486846a8ecb53c57e3831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Nutracker Gold.mat using Guid(29110696499486846a8ecb53c57e3831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7682383d2290e46635cfd99621de2d71') in 0.010443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Sledge Red.mat
-  artifactKey: Guid(0593633c419685c4c8be0bc0e4d0e49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Sledge Red.mat using Guid(0593633c419685c4c8be0bc0e4d0e49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ab7d3e07d75b9557eb4f3ddbdeccda') in 0.009092 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Brown.mat
-  artifactKey: Guid(e1798c5eac029654eb5a24208e465ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Brown.mat using Guid(e1798c5eac029654eb5a24208e465ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58a994e689d61c86d17ec6593c4d9ec') in 0.008455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Nutcracker White.mat
-  artifactKey: Guid(d419e2cc3def83543b611f25b3bdb1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Nutcracker White.mat using Guid(d419e2cc3def83543b611f25b3bdb1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe48a4baf17e162d8a2f2cfd89896b3') in 0.009159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift2 Blue.mat
-  artifactKey: Guid(82cbe940e894b0646959869417d61781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift2 Blue.mat using Guid(82cbe940e894b0646959869417d61781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3e2760065a782f7c8dd5a46d5ee192') in 0.010562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Snow.mat
-  artifactKey: Guid(79ba4c33650be0c489667d70528fd193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Tree Snow.mat using Guid(79ba4c33650be0c489667d70528fd193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921b65539cd3e68346978bbc39aa28a8') in 0.012196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift2 Green.mat
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift2 Green.mat
   artifactKey: Guid(d8724b0cd52082440bbb7ac40b4beef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift2 Green.mat using Guid(d8724b0cd52082440bbb7ac40b4beef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96dcf060614d64b6456f010eb723288') in 0.010118 seconds
+Start importing Assets/Imported Assets/BrokenVector/LowPolyWinterPack/Models/Materials/Gift2 Green.mat using Guid(d8724b0cd52082440bbb7ac40b4beef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd008a728a6ff20051badae1a40fa1baf') in 0.007923 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.462 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.317 seconds
+Domain Reload Profiling: 1779ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3648.
+Memory consumption went from 130.5 MB to 130.4 MB.
+Total: 4.423200 ms (FindLiveObjects: 0.773800 ms CreateObjectMapping: 0.212200 ms MarkObjects: 3.382900 ms  DeleteObjects: 0.053000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

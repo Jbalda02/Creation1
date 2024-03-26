@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Net;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.VFX;
 
@@ -36,7 +37,8 @@ public class TargetBehaviour:MonoBehaviour
          
          if (collision.gameObject.CompareTag("Bullet"))
          {
-             ScoreManager.instance.AddPoint(100) ;
+             ScoreManager.instance.AddPoint(1000) ;
+             ScoreManager.instance.CheckScore();
          }
      }
 }

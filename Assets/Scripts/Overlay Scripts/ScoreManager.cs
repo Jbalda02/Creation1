@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
@@ -9,6 +10,9 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager instance;
     public Text scoreText;
     private int ScoreCount;
+    private int ScoreCap = 10000;
+    [SerializeField]  string nextLevel;
+    [SerializeField] private string thisLevel;
 
     private void Awake()
     {
@@ -20,8 +24,18 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = "Score: " + ScoreCount.ToString(); 
     }
-    void Update()
+
+    public void CheckScore()
     {
+        if (nextLevel != thisLevel)
+        {
+            if (ScoreCount > ScoreCap)
+            {
+                print("ReadyForNextLevel");
+                SceneManager.LoadScene(nextLevel);
+            }
+        }
+        scoreText.text = "Score: " + ScoreCount.ToString() + "You Won!!!";
     }
 
     public void AddPoint(int d)
@@ -31,4 +45,10 @@ public class ScoreManager : MonoBehaviour
 
     }
 
+    public void ResetScore()
+    {
+        ScoreCount = 0;
+        scoreText.text = "Score: " + ScoreCount.ToString(); 
+
+    }
 }
